@@ -7,7 +7,7 @@ class TestEjemplo(unittest.TestCase):
 		self.ejemplo = Ejemplo("Tony")
 
 	def test_obteter_nombre(self):
-		self.assertEqual(self.ejemplo.obtenerNombre(), "Tony")
+		self.assertEqual(self.ejemplo.obtenerNombre(), "Tonyx")
 
 if __name__ == '__main__':
     unittest.main()
